@@ -1,6 +1,6 @@
 {% if theme.baidushare.type === "button" %}
   <div class="bdsharebuttonbox">
-    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>   
     <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
     <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
     <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
@@ -55,3 +55,5 @@
 <script>
   with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
 </script>
+
+
