@@ -170,6 +170,11 @@
         </div>
       {% endif %}
 
+      <div class="wechat_channel">
+        <br>
+        <img src ="/images/wechat.png">
+      </div>
+
     </div>
   </aside>
 {% endmacro %}
