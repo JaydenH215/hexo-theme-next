@@ -355,6 +355,9 @@
     {% if theme.post_copyright.enable and not is_index %}
       <div>
         {% include 'post-copyright.swig' with { post: post } %}
+        {% if theme.baidushare %}
+          {% include '../_partials/share/baidushare.swig' %}
+        {% endif %}
       </div>
     {% endif %}
 
